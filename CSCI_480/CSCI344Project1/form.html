@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>A Title is Hard</title>
+<meta charset="UTF-8">
+<script src="jscript1.js"></script>
+<script src="scripts/jscript1.js"></script>
+        <link rel="stylesheet" href="css/color.css">
+</head>
+<body>
+	<div class="topnav">
+		<a class="active" href="index.html">Home</a> <a href="form.html">Form</a>
+		<a href="#contact">Contact</a> <a href="index2.html">About</a>
+	</div>
+	<form name="form" method="post" onsubmit="validateForm()" action="scripts/newfile2.php">
+		First name:<br> <input type="text" name="firstname" id= "firstname"><br>
+		Last name:<br> <input type="text" name="lastname" id= "lastname"><br>
+		Phone:<br> <input type="tel" name="phone" id= "phone"><br>
+		Mobile:<br> <input type="tel" name="mobile" id= "mobile"><br>
+		Fax:<br> <input type="tel" name="fax" id= "fax"><br>
+		Email:<br> <input type="email" name="email" id= "email"><br>
+		Web:<br> <input type="url" name="web" id= "web"><br>
+		
+		<br> <input type="submit" value="Submit">
+	</form>
+	<p> Lets Divide and Multiply!!!!!!!</p>
+	<form>
+		1st Number : <input type="text" id="firstNumber" /><br> 
+		2nd Number: <input type="text" id="secondNumber" /><br> 
+		<input type="button" onClick="multiplyBy()" Value="Multiply" />
+		<input type="button" onClick="divideBy()" Value="Divide" />
+	</form>
+	<p>The Result is : <br> 
+	<span id="result"></span>
+	</p>
+	<h1>Stolen... Ajax, JSON, and callback function Demo </h1>
+        <h3> ... and refreshes every 10 seconds too </h3>
+
+        <div>First name of Contact: <input type="text" name="fnamet" value="" 
+                                           onchange="getFName(this.value)">
+        </div><br>
+        <h3>Ajax JSON Reponse text from database call will be listed here:</h3>
+        <div id="JSONoutPlace">...</div>
+        <hr>
+        <h3>Javascript callback function processing of it will be listed here:</h3>
+        <p>Names of entered first name:</p>  
+        <div id="DBoutPlace">...</div>
+	
+</body>
+</html>

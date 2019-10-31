@@ -1,0 +1,67 @@
+@charset "UTF-8";
+body {
+	background-color: gray;
+}
+
+h2 {
+	color: black;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	font-family: timesnewroman;
+	font-size: 12;
+	color: pink;
+}
+ol{
+	
+}
+ol li{
+	list-style-position: inside;
+	padding: 0px;
+  	margin-left: 5px;
+	font-family: ariel;
+	color: #400040;
+}
+
+href {
+	text-align: center;
+}
+#topTitle{
+	text-align: center;
+	background-color: darkgray;
+	position: center;
+	width: 100%;
+	height: 25%;
+	width: 100%;
+}
+form {
+	align: center:
+	
+	
+}
+
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #808080;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #99badd;
+  color: #000000;
+}

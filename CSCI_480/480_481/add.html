@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+	<h2>New Inventory Form</h2>
+	<form method="post"
+		action="scripts/insertproduct.php">
+
+		<label for="product_name">Product Name:</label> <input type="text"
+			 name="product_name"> <label
+			for="product_price">Product Price:</label> <input type="number"
+			placeholder="1.00" step="0.01" min"0" max="10" 
+			name="product_price"> <label for="quanity_in_stock">Quanity:</label>
+		<input type="number" name="quanity_in_stock">
+
+
+		<label for="product_description">Description:</label> <input
+			type="text"  name="description"> <label
+			for="product_status">Status:</label> <input type="text"
+			name="product_status"> <input
+			type="submit">
+	</form>
+
+
+
+</body>
+</html>
